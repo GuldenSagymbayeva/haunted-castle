@@ -1,0 +1,78 @@
+# The Haunted Castle - world definition. The format is documented in README.md.
+
+# ---------------------------------------------------------------- rooms
+ROOM entrance_hall
+ROOM great_hall
+ROOM kitchen
+ROOM chapel
+ROOM armory
+ROOM library
+ROOM tower
+ROOM laboratory
+ROOM dungeon
+ROOM secret_passage
+ROOM crypt
+
+DESC entrance_hall Moonlight spills through a shattered rose window onto a cracked marble floor. The great doors will not budge.
+DESC great_hall A long banquet table is still laid for a feast that ended centuries ago. Portraits follow you with their eyes.
+DESC kitchen Copper pots swing gently with no wind to move them. A pot of stew is somehow still warm.
+DESC chapel Candles burn on a dusty altar. For the first time tonight you feel safe.
+DESC armory Racks of rusted weapons line the walls. The floor is covered in deep claw marks.
+DESC library Towering shelves sag under rotting books. A cold draft seems to come from behind one bookcase.
+DESC tower A winding stair ends in a round chamber open to the stars. Your breath turns to frost.
+DESC laboratory Bubbling glassware and scorched tables. Something wet glistens between the shelves.
+DESC dungeon Chains hang from dripping walls. A heavy iron gate, carved with a skull, leads down to the crypt.
+DESC secret_passage A narrow, cobwebbed tunnel slopes steeply downward. You hear something breathing far below.
+DESC crypt Rows of stone coffins. The largest one stands open... and empty.
+
+# ---------------------------------------------------------------- paths
+CONNECT entrance_hall library
+CONNECT entrance_hall laboratory
+CONNECT entrance_hall great_hall
+CONNECT great_hall kitchen
+CONNECT great_hall armory
+LOCKED great_hall chapel chapel_key
+CONNECT library tower
+CONNECT laboratory dungeon
+LOCKED dungeon crypt iron_key
+HIDDEN library secret_passage ancient_tome
+LEADS_TO secret_passage library
+CONNECT secret_passage crypt
+
+# ---------------------------------------------------------------- heroes and monsters
+FIGHTER Sir_Roderick entrance_hall
+MAGE Elowen library
+
+SLIME Ooze laboratory
+SKELETON Old_Bones dungeon
+GHOST Lady_Grey tower
+WEREWOLF Grimfang armory
+VAMPIRE Count_Orlok crypt
+GOAL Count_Orlok
+
+DESC Ooze A quivering green mass. The bigger it is, the harder it hits.
+DESC Old_Bones A skeleton warrior. Smashed bones have a way of pulling themselves back together.
+DESC Lady_Grey A weeping spirit. Ordinary blows often pass right through her.
+DESC Grimfang A huge grey wolf-man. Wounding it only makes it angrier, but silver burns it.
+DESC Count_Orlok The master of the castle. He feeds on blood, and only silver or magic can finish him.
+
+# ---------------------------------------------------------------- items
+ITEM glowing_potion entrance_hall POTION 25
+ITEM hearty_stew kitchen POTION 15
+ITEM chapel_key kitchen KEY
+ITEM holy_water chapel THROWN 15
+ITEM healing_elixir chapel POTION 30
+ITEM steel_shield armory ARMOR 3
+ITEM war_axe armory WEAPON 4
+ITEM ancient_tome library TOME
+ITEM silver_dagger tower WEAPON 6 SILVER
+ITEM brass_telescope tower SPYGLASS
+ITEM iron_key laboratory KEY
+ITEM red_vial dungeon POTION 30
+
+DESC chapel_key A small brass key engraved with a cross.
+DESC iron_key A heavy iron key with a skull on its bow.
+DESC ancient_tome Crumbling floor plans of the castle. One page is marked "the library".
+DESC hearty_stew A steaming bowl. Restores 15 health.
+DESC healing_elixir A blessed elixir that glows softly. Restores 30 health.
+DESC holy_water A vial of holy water. Throw it at a monster: 15 magic damage, double against the undead.

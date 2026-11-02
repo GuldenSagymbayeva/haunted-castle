@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="802" height="670" viewBox="0 0 802 670" role="img" aria-label="The Haunted Castle gameplay: the mage reads the tome, takes the secret passage and fights Count Orlok">
+<rect width="802" height="670" rx="10" fill="#0d1117"/>
+<rect width="802" height="30" rx="10" fill="#161b22"/><rect y="20" width="802" height="10" fill="#161b22"/>
+<circle cx="18" cy="15" r="6" fill="#ff5f56"/><circle cx="38" cy="15" r="6" fill="#ffbd2e"/><circle cx="58" cy="15" r="6" fill="#27c93f"/>
+<text x="401" y="20" fill="#8b949e" font-family="Consolas, Menlo, monospace" font-size="13" text-anchor="middle">java -jar haunted-castle.jar</text>
+<g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">
+<text x="18" y="46">You&#160;are&#160;Elowen&#160;the&#160;Mage.</text>
+<text x="18" y="84"><tspan fill="#4fd6e8" font-weight="bold">==&#160;Library&#160;==</tspan></text>
+<text x="18" y="103">Towering&#160;shelves&#160;sag&#160;under&#160;rotting&#160;books.&#160;A&#160;cold&#160;draft&#160;seems&#160;to&#160;come&#160;from&#160;behind&#160;one&#160;bookcase.</text>
+<text x="18" y="122">You see: <tspan fill="#e5c07b">ancient&#160;tome</tspan>.</text>
+<text x="18" y="141">Exits:&#160;&#160;[1]&#160;entrance&#160;hall&#160;&#160;[2]&#160;tower</text>
+<text x="18" y="160"><tspan font-weight="bold">&gt;&#160;</tspan><tspan fill="#ffffff" font-weight="bold">take&#160;tome</tspan></text>
+<text x="18" y="179">You&#160;take&#160;the&#160;ancient&#160;tome.&#160;Crumbling&#160;floor&#160;plans&#160;of&#160;the&#160;castle.&#160;One&#160;page&#160;is&#160;marked&#160;"the&#160;library".</text>
+<text x="18" y="198"><tspan font-weight="bold">&gt;&#160;</tspan><tspan fill="#ffffff" font-weight="bold">read&#160;tome</tspan></text>
+<text x="18" y="217"><tspan fill="#7ee787" font-weight="bold">Following&#160;the&#160;ancient&#160;tome,&#160;you&#160;find&#160;a&#160;hidden&#160;way&#160;to&#160;the&#160;secret&#160;passage!</tspan></text>
+<text x="18" y="236"><tspan font-weight="bold">&gt;&#160;</tspan><tspan fill="#ffffff" font-weight="bold">go&#160;secret&#160;passage</tspan></text>
+<text x="18" y="255"><tspan fill="#4fd6e8" font-weight="bold">==&#160;Secret&#160;passage&#160;==</tspan></text>
+<text x="18" y="274">A&#160;narrow,&#160;cobwebbed&#160;tunnel&#160;slopes&#160;steeply&#160;downward.&#160;You&#160;hear&#160;something&#160;breathing&#160;far&#160;below.</text>
+<text x="18" y="293">Exits:&#160;&#160;[1]&#160;library&#160;&#160;[2]&#160;crypt</text>
+<text x="18" y="312"><tspan font-weight="bold">&gt;&#160;</tspan><tspan fill="#ffffff" font-weight="bold">go&#160;crypt</tspan></text>
+<text x="18" y="331"><tspan fill="#4fd6e8" font-weight="bold">==&#160;Crypt&#160;==</tspan></text>
+<text x="18" y="350">Rows&#160;of&#160;stone&#160;coffins.&#160;The&#160;largest&#160;one&#160;stands&#160;open...&#160;and&#160;empty.</text>
+<text x="18" y="369"><tspan fill="#ff6b6b" font-weight="bold">DANGER:&#160;Count&#160;Orlok&#160;the&#160;Vampire&#160;</tspan><tspan fill="#7ee787">[##########]</tspan><tspan fill="#ff6b6b" font-weight="bold">&#160;90/90&#160;HP</tspan></text>
+<text x="18" y="388">Exits:&#160;&#160;[1]&#160;dungeon&#160;(locked)&#160;&#160;[2]&#160;secret&#160;passage</text>
+<text x="18" y="407"><tspan fill="#ff6b6b" font-weight="bold">Count&#160;Orlok&#160;rises&#160;from&#160;the&#160;coffin.&#160;"At&#160;last...&#160;a&#160;guest&#160;for&#160;dinner."</tspan></text>
+<text x="18" y="426"><tspan font-weight="bold">&gt;&#160;</tspan><tspan fill="#ffffff" font-weight="bold">attack</tspan></text>
+<text x="18" y="445">You&#160;hurl&#160;a&#160;fireball&#160;at&#160;Count&#160;Orlok!</text>
+<text x="18" y="464">&#160;&#160;Count&#160;Orlok&#160;takes&#160;13&#160;damage&#160;<tspan fill="#7ee787">[#########-]</tspan>&#160;77/90&#160;HP</text>
+<text x="18" y="483"><tspan fill="#ff6b6b" font-weight="bold">Count&#160;Orlok&#160;bites&#160;you!</tspan></text>
+<text x="18" y="502">Count&#160;Orlok&#160;drinks&#160;your&#160;blood&#160;and&#160;recovers&#160;4&#160;health.</text>
+<text x="18" y="521">&#160;&#160;You&#160;take&#160;9&#160;damage&#160;<tspan fill="#7ee787">[########--]</tspan>&#160;36/45&#160;HP</text>
+<text x="18" y="540"><tspan font-weight="bold">&gt;&#160;</tspan><tspan fill="#ffffff" font-weight="bold">attack</tspan></text>
+<text x="18" y="559">You&#160;hurl&#160;a&#160;fireball&#160;at&#160;Count&#160;Orlok!</text>
+<text x="18" y="578">&#160;&#160;Count&#160;Orlok&#160;takes&#160;20&#160;damage&#160;<tspan fill="#7ee787">[#######---]</tspan>&#160;61/90&#160;HP</text>
+<text x="18" y="597"><tspan fill="#ff6b6b" font-weight="bold">Count&#160;Orlok&#160;bites&#160;you!</tspan></text>
+<text x="18" y="616">Count&#160;Orlok&#160;drinks&#160;your&#160;blood&#160;and&#160;recovers&#160;4&#160;health.</text>
+<text x="18" y="635">&#160;&#160;You&#160;take&#160;9&#160;damage&#160;<tspan fill="#7ee787">[######----]</tspan>&#160;27/45&#160;HP</text>
+</g></svg>
